@@ -1,0 +1,3 @@
+SELECT CO.CourseID, CO.CourseCity, SO.SubjectId, SO.SubjectTitle, SO.SubjectDate
+FROM SUBJECT_OFFERING AS SO, COURSE_OFFERING AS CO
+WHERE SO.CourseID=CO.CourseID;
